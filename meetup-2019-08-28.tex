@@ -1,0 +1,110 @@
+\documentclass[aspectratio=169,xcolor={dvipsnames}]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[export]{adjustbox}
+\usepackage{hyperref}
+\setbeamertemplate{navigation symbols}{\insertsectionhead\hspace{5em}}
+\setbeamercolor*{palette tertiary}{bg=BurntOrange}
+\setbeamercolor{title}{fg=BurntOrange}
+\setbeamercolor{author}{fg=White}
+\setbeamercolor{date}{fg=White}
+\setbeamercolor{frametitle}{fg=BurntOrange}
+\usetitlepagetemplate{
+  \vbox{}
+  \vspace{10em}
+  \Huge\structure{\usebeamercolor[fg]{title}\inserttitle}
+  \vskip1em\par
+  \large
+  \usebeamercolor[fg]{author}\insertauthor\par
+  \usebeamercolor[fg]{institute}\insertinstitute\par
+  \usebeamercolor[fg]{date}\insertdate\par
+  \usebeamercolor[fg]{titlegraphic}\inserttitlegraphic
+  \vspace{3em}
+}
+\AtBeginSection[]{
+  \begin{frame}
+  \vfill
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+    \usebeamerfont{title}\insertsectionhead\par%
+  \end{beamercolorbox}
+  \vfill
+  \end{frame}
+}
+
+\title{OWASP Local Meetup}
+\date{28 August 2019}
+\author{Klaus Agnoletti}
+\institute{}
+
+\begin{document}
+
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{image2.jpg}}
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{image1.jpg}}
+
+
+\begin{frame}
+  \frametitle{Agenda}
+  \begin{itemize}
+
+  \item 17:00 - 17:10: Welcome message
+  \item 17:10 - 17:40: "Reporting on BSides Las Vegas and DEF CON" by Christian Dinesen, NNIT
+  \item 17:40 - 18:10: "Approaching Bluetooth in 2019" by Martin Schroter
+  \item 18:10 - 18:55: "Experiences in OSINT" by Bjarne Tersbøl, Special Advisor at Konkurrence- og Forbrugerstyrelsen
+  \item 19:00 - 21:00: Pizza and networking (no CTF this time, but welcome to play HackTheBox)
+
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  {Shoutout to our sponsor}
+  \begin{center}
+    \begin{tabular}{ccc}
+      \includegraphics[valign=m,width=.7\textwidth]{CBSlogo.pdf}
+    \end{tabular}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{OWASP DK Local Chapters}
+  \begin{itemize}
+  \item Get in touch at: https://owasp.slack.com/\vfill
+
+  \item Slack Channels: \#chapters-copenhagen, \#chapters-denmark, \#chapters-aarhus\vfill
+
+
+  \item Sign up at the meetup page: \url{https://www.meetup.com/OWASP-Copenhagen-Chapter/}\vfill
+
+  \item OWASP-DK mailing list (for announcements and discussions): \url{https://groups.google.com/a/owasp.org/forum/#!forum/copenhagen-chapter}
+
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{OWASP Copenhagen going forward}
+
+  \begin{itemize}
+    \item Need volunteers for talks, games, social events
+    \item Become a sponsor
+    \item Next event: when? where?
+    \item Propose a topic/talk!
+    \item Participate in creating CTF competitions, workshops or other activities
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  {The talks}
+
+  \begin{itemize}
+  \item 17:10 - 17:40: "Reporting on BSides Las Vegas and DEF CON" by Christian Dinesen, NNIT
+  \item 17:40 - 18:10: "Approaching Bluetooth in 2019" by Martin Schroter
+  \item 18:10 - 18:55: "Experiences in OSINT" by Bjarne Tersbøl, Special Advisor at Konkurrence- og Forbrugerstyrelsen
+  \end{itemize}
+
+  
+\end{frame}
+
+\end{document}
